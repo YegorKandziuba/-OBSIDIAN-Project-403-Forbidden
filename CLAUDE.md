@@ -23,6 +23,7 @@ The past campaign is **«Сумеречная Сфера Риверкель»**.
 - `30 Ваншоты/` holds one-shots. `Приговор до полуночи/` is the adaptation of Paizo's *Mark of the Mantis*; its `00 - Концепция.md` is the source of truth (decisions, open questions, archive of rejected variants), and `FVTT/` holds Foundry VTT import files.
 - `20 Кампании/Красная Вуаль/` is the next campaign (in preparation).
 - `20 Кампании/Пепел Пророчества/` is a separate campaign/project in development.
+- `20 Кампании/Экспедиторы Её Величества/` is a finished mini-campaign set in 114 НЭ (played in D&D 5e before the vault existed). Treat it as lore canon for that era; do not port its 5e mechanics.
 - `90 MD для Claude/` contains condensed «CLAUDE - …» digests of key lore (NPCs, religion, the Riverkel disappearance, geography, cosmology) and the working-context note above. `CLAUDE - ссылки.md` indexes them. They are hand-written summaries of the fuller notes elsewhere in the vault. When canon changes in a source note, the matching digest may need the same update. Keep the two consistent. Read full source notes directly (e.g. `Писания о Великой Семерке`); no split copies are needed.
 - The Riverkel campaign hub has a «Все материалы кампании» section listing every campaign note; keep it updated when adding or removing campaign files.
 - Images live in `80 Картинки/`.
