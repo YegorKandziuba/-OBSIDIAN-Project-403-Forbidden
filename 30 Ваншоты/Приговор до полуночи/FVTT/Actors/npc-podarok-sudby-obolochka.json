@@ -1,0 +1,163 @@
+{
+  "name": "«Подарок Судьбы» — оболочка",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": { "mod": 3 },
+      "dex": { "mod": 5 },
+      "con": { "mod": 3 },
+      "int": { "mod": 2 },
+      "wis": { "mod": 4 },
+      "cha": { "mod": 7 }
+    },
+    "attributes": {
+      "ac": { "value": 24, "details": "" },
+      "allSaves": { "value": "+1 бонус состояния ко всем спасброскам против магии" },
+      "hp": { "value": 105, "max": 105, "temp": 0, "details": "" },
+      "speed": { "value": 25, "otherSpeeds": [ { "type": "fly", "value": 35 } ], "details": "" },
+      "immunities": [ { "type": "disease" }, { "type": "poison" } ],
+      "weaknesses": [ { "type": "silver", "value": 5 }, { "type": "fire", "value": 5 } ],
+      "resistances": []
+    },
+    "details": {
+      "level": { "value": 7 },
+      "languages": { "value": [], "details": "Дэлюнский (только пока держит оболочку)" },
+      "blurb": "Тень Талиса в облике Одель Бранкович",
+      "publicNotes": "<p>Безмозглая бесплотная тень из запасов Талиса Серебряного, которой Талис вложил ровно столько воли, чтобы носить оболочку в облике Одель. Слабость к серебру — это слабость к <strong>освящённому</strong> серебру Ордена.</p>",
+      "privateNotes": "<p>Как играть — «Враги.md» и «03 - Особняк.md». При ~35 ОЗ сбрасывает оболочку и превращается в тень (отдельный актёр). Если видят гости — +4 Очка тревоги.</p>",
+      "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+    },
+    "initiative": { "statistic": "perception" },
+    "perception": { "mod": 15, "details": "", "senses": [ { "type": "greater-darkvision" } ] },
+    "saves": {
+      "fortitude": { "value": 12, "saveDetail": "" },
+      "reflex": { "value": 16, "saveDetail": "" },
+      "will": { "value": 17, "saveDetail": "" }
+    },
+    "skills": {
+      "acrobatics": { "base": 14 },
+      "arcana": { "base": 13 },
+      "deception": { "base": 20 },
+      "diplomacy": { "base": 20 },
+      "intimidation": { "base": 16 },
+      "performance": { "base": 16 },
+      "religion": { "base": 13 },
+      "society": { "base": 13 },
+      "stealth": { "base": 16 }
+    },
+    "traits": { "value": [ "spirit" ], "rarity": "unique", "size": { "value": "med" } },
+    "resources": {}
+  },
+  "items": [
+    {
+      "name": "Ногти",
+      "type": "melee",
+      "system": {
+        "bonus": { "value": 16 },
+        "damageRolls": { "nogti0": { "damage": "2d8+6", "damageType": "slashing" }, "nogti1": { "damage": "1d6", "damageType": "spirit" } },
+        "traits": { "value": [ "agile", "finesse", "magical" ] },
+        "attackEffects": { "value": [ "nevezenie" ] },
+        "description": { "value": "" }
+      }
+    },
+    {
+      "name": "Отравленная шпилька",
+      "type": "melee",
+      "system": {
+        "bonus": { "value": 16 },
+        "damageRolls": {
+          "shp0": { "damage": "1d4+6", "damageType": "piercing" },
+          "shp1": { "damage": "1d8", "damageType": "poison" }
+        },
+        "traits": { "value": [ "agile", "thrown-20" ] },
+        "range": { "increment": 20, "max": null },
+        "attackEffects": { "value": [] },
+        "description": { "value": "" }
+      }
+    },
+    {
+      "name": "Врождённые божественные заклинания",
+      "type": "spellcastingEntry",
+      "system": {
+        "tradition": { "value": "divine" },
+        "prepared": { "value": "innate" },
+        "spelldc": { "value": 17, "dc": 25 },
+        "showSlotlessLevels": { "value": false },
+        "description": { "value": "<p>Перетащите из компендиума: 4-й ранг — <em>charm</em> (по желанию), <em>dimension door</em> (по желанию), <em>suggestion</em> (по желанию), <em>misdirection</em> (по желанию, только на себя), <em>outcast's curse</em> (по желанию); фокус (4-й) — <em>detect magic</em>.</p>" }
+      }
+    },
+    {
+      "name": "Ненависть к серебру",
+      "type": "action",
+      "system": {
+        "slug": "nenavist-k-serebru",
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "category": "defensive",
+        "traits": { "value": [] },
+        "description": { "value": "<p>Тень не касается освящённого серебра и не заходит туда, где его много. При выборе она атакует существо, несущее освящённое серебро. Увидев его впервые, она непроизвольно вздрагивает и шипит: существо, которое это видит, может сразу, не тратя действие, попытаться распознать подделку (Восприятие КС 30).</p>" }
+      }
+    },
+    {
+      "name": "Оплывающее тело",
+      "type": "action",
+      "system": {
+        "slug": "oplyvayushchee-telo",
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "category": "defensive",
+        "traits": { "value": [] },
+        "description": { "value": "<p>Оболочка боится жара. Если существо получает урон огнём или начинает ход у открытого огня (камин, жаровня), лицо Одель на миг «плывёт»: следующая проверка распознать подделку получает +4 бонус обстоятельства.</p>" }
+      }
+    },
+    {
+      "name": "Перетасовка",
+      "type": "action",
+      "system": {
+        "slug": "peretasovka",
+        "actionType": { "value": "reaction" },
+        "actions": { "value": null },
+        "category": "defensive",
+        "traits": { "value": [ "divine", "fortune" ] },
+        "description": { "value": "<p><strong>Триггер</strong> Существо целится в «Подарок Судьбы» Ударом.</p><p><strong>Эффект</strong> Тень меняется местами с другим существом (не атакующим), которое видит в пределах 30 футов. Удар направляется в это существо. Несогласное существо может сопротивляться: спасбросок Воли КС 25. «Перетасовку» нельзя использовать снова 1d4 раунда.</p>" }
+      }
+    },
+    {
+      "name": "Невезение",
+      "type": "action",
+      "system": {
+        "slug": "nevezenie",
+        "actionType": { "value": "passive" },
+        "actions": { "value": null },
+        "category": "offensive",
+        "traits": { "value": [ "curse", "misfortune" ] },
+        "description": { "value": "<p>Существо, получившее урон от ногтей, делает свою следующую проверку до конца своего следующего хода дважды и берёт худший результат. Эффекты «Невезения» не складываются.</p>" }
+      }
+    },
+    {
+      "name": "Смена облика",
+      "type": "action",
+      "system": {
+        "slug": "smena-oblika",
+        "actionType": { "value": "action" },
+        "actions": { "value": 1 },
+        "category": "interaction",
+        "traits": { "value": [ "concentrate", "divine", "polymorph" ] },
+        "description": { "value": "<p>Тень принимает облик любого Маленького или Среднего гуманоида. Скорость, модификаторы атаки и урона не меняются. Копия не идеальна: нужны наряд, грим и игра.</p>" }
+      }
+    },
+    {
+      "name": "Сбросить оболочку",
+      "type": "action",
+      "system": {
+        "slug": "sbrosit-obolochku",
+        "actionType": { "value": "action" },
+        "actions": { "value": 1 },
+        "category": "interaction",
+        "traits": { "value": [ "concentrate", "divine" ] },
+        "description": { "value": "<p>Оболочка оплывает и растекается лужей тёплой воскоподобной массы, оставляя одежду и предметы. На её месте поднимается тень (замените токен на актёра «Подарок Судьбы — тень»). Тень получает ОЗ, равные половине текущих ОЗ оболочки (с округлением вниз), и освобождается от состояний «схвачен», «обездвижен» и «удерживаем». Обратно тень вернуться не может. Если это видят гости или слуги — группа получает +4 Очка тревоги.</p>" }
+      }
+    }
+  ]
+}

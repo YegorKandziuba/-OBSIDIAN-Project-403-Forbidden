@@ -1,0 +1,16 @@
+{
+  "name": "Белая маска Мизерикорда",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "system": {
+    "slug": "white-mask-of-the-misericorde",
+    "level": { "value": 0 },
+    "price": { "value": {} },
+    "bulk": { "value": 0.1 },
+    "quantity": 1,
+    "usage": { "value": "worn-headwear" },
+    "traits": { "value": [ "invested", "magical" ], "rarity": "uncommon", "otherTags": [] },
+    "description": { "value": "<p>Гладкая белая маска без рта — «Орден не спорит». Маску сестры Сесиль Одель бросила в чулан (A14).</p><p><strong>Свойства</strong> — как у <em>hat of disguise</em> (шляпа маскировки), механически та же вещь, что маска Красной Богомолки у прегенов. Перенесите активацию, уровень и цену из компендиума.</p>" },
+    "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+  }
+}

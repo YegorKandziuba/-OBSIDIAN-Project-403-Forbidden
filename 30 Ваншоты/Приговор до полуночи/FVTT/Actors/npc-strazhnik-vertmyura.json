@@ -1,0 +1,131 @@
+{
+  "name": "Стражник Вертмюра",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": { "mod": 4 },
+      "dex": { "mod": 3 },
+      "con": { "mod": 1 },
+      "int": { "mod": 0 },
+      "wis": { "mod": 2 },
+      "cha": { "mod": 1 }
+    },
+    "attributes": {
+      "ac": { "value": 21, "details": "" },
+      "allSaves": { "value": "" },
+      "hp": { "value": 60, "max": 60, "temp": 0, "details": "" },
+      "speed": { "value": 25, "otherSpeeds": [], "details": "" },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "level": { "value": 4 },
+      "languages": { "value": [], "details": "Дэлюнский" },
+      "blurb": "Наёмная охрана Одель Бранкович",
+      "publicNotes": "<p>Отставные солдаты и бывшие наёмники. Обычно их снимают «Тихим приговором»; по раундам дерутся только в патруле и рядом с главными угрозами.</p>",
+      "privateNotes": "<p>Работают парами: один держит, другой сбивает с ног. Раненый ниже половины ОЗ отступает и зовёт своих.</p>",
+      "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+    },
+    "initiative": { "statistic": "perception" },
+    "perception": { "mod": 12, "details": "", "senses": [] },
+    "saves": {
+      "fortitude": { "value": 11, "saveDetail": "" },
+      "reflex": { "value": 13, "saveDetail": "" },
+      "will": { "value": 10, "saveDetail": "" }
+    },
+    "skills": {
+      "acrobatics": { "base": 11 },
+      "athletics": { "base": 12 },
+      "intimidation": { "base": 9 },
+      "society": { "base": 8 }
+    },
+    "traits": { "value": [ "human", "humanoid" ], "rarity": "uncommon", "size": { "value": "med" } },
+    "resources": {}
+  },
+  "items": [
+    {
+      "name": "Длинный меч",
+      "type": "melee",
+      "system": {
+        "bonus": { "value": 14 },
+        "damageRolls": { "ls0": { "damage": "1d8+8", "damageType": "slashing" } },
+        "traits": { "value": [ "versatile-p" ] },
+        "attackEffects": { "value": [] },
+        "description": { "value": "" }
+      }
+    },
+    {
+      "name": "Дубинка",
+      "type": "melee",
+      "system": {
+        "bonus": { "value": 14 },
+        "damageRolls": { "sap0": { "damage": "1d6+8", "damageType": "bludgeoning" } },
+        "traits": { "value": [ "agile", "nonlethal" ] },
+        "attackEffects": { "value": [] },
+        "description": { "value": "" }
+      }
+    },
+    {
+      "name": "Композитный короткий лук",
+      "type": "melee",
+      "system": {
+        "bonus": { "value": 13 },
+        "damageRolls": { "bow0": { "damage": "1d6+6", "damageType": "piercing" } },
+        "traits": { "value": [ "deadly-d10", "reload-0" ] },
+        "range": { "increment": 60, "max": null },
+        "attackEffects": { "value": [] },
+        "description": { "value": "" }
+      }
+    },
+    {
+      "name": "Атака возможности",
+      "type": "action",
+      "system": {
+        "slug": "attack-of-opportunity",
+        "actionType": { "value": "reaction" },
+        "actions": { "value": null },
+        "category": "defensive",
+        "traits": { "value": [] },
+        "description": { "value": "<p>Как в Основной книге правил.</p>" }
+      }
+    },
+    {
+      "name": "Боевой захват",
+      "type": "action",
+      "system": {
+        "slug": "boevoi-zakhvat",
+        "actionType": { "value": "action" },
+        "actions": { "value": 1 },
+        "category": "offensive",
+        "traits": { "value": [ "press" ] },
+        "description": { "value": "<p><strong>Требования</strong> У стражника свободна одна рука, и цель в её досягаемости.</p><p><strong>Эффект</strong> Стражник делает Удар ближнего боя, держа руку свободной. При попадании он хватает цель свободной рукой. Цель схвачена до конца следующего хода стражника или пока не Вырвется.</p>" }
+      }
+    },
+    {
+      "name": "Подсечка",
+      "type": "action",
+      "system": {
+        "slug": "podsechka",
+        "actionType": { "value": "action" },
+        "actions": { "value": 2 },
+        "category": "offensive",
+        "traits": { "value": [] },
+        "description": { "value": "<p>Стражник делает Удар ближнего боя. Если тот попал и нанёс урон, стражник делает проверку Атлетики, чтобы Сбить с ног того, в кого попал. Обе атаки учитываются для штрафа за множественную атаку, но штраф растёт только после обеих.</p>" }
+      }
+    },
+    {
+      "name": "Сигнальный свисток",
+      "type": "action",
+      "system": {
+        "slug": "signalnyi-svistok",
+        "actionType": { "value": "action" },
+        "actions": { "value": 1 },
+        "category": "interaction",
+        "traits": { "value": [ "auditory" ] },
+        "description": { "value": "<p>Стражник свистит. Группа получает +1 Очко тревоги. Если в поместье остались стражники, через раунд подходит ещё один.</p>" }
+      }
+    }
+  ]
+}

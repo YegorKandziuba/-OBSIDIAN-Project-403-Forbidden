@@ -1,0 +1,25 @@
+{
+  "name": "Посвящение Экзекутора Мизерикорда",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "slug": "misericorde-executioner-dedication",
+    "category": "class",
+    "level": { "value": 2 },
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "prerequisites": { "value": [ { "value": "обучен Скрытности" }, { "value": "член Ордена Белого Покаяния" } ] },
+    "traits": { "value": [ "archetype", "dedication" ], "rarity": "uncommon", "otherTags": [] },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "slug": "misericorde",
+        "label": "Мизерикорд",
+        "definition": [ "item:base:sawtooth-saber" ],
+        "sameAs": "martial"
+      }
+    ],
+    "description": { "value": "<p>Вы принесли обет Мизерикорда и получили свой клинок.</p><ul><li>Вы становитесь обучены <strong>Лору Ордена Белого Покаяния</strong>. Если вы уже обучены ему, вы становитесь обучены навыку на ваш выбор. <em>(Добавьте навык Лора вручную.)</em></li><li>Вы получаете доступ к <strong>мизерикорду</strong> (механически — <em>sawtooth saber</em>). Для определения мастерства мизерикорд считается для вас воинским оружием.</li><li>Когда вы доводите существо до 0 ОЗ Ударом мизерикорда, вы можете оставить на теле знак Ордена — чётки со сломанной бусиной. Механики нет.</li></ul><p><strong>Особое</strong> Вы не можете выбрать другую черту посвящения, пока не получите две другие черты этого архетипа.</p>" },
+    "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"10 Сеттинг\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 2006492
+      }
+    },
+    {
+      "query": "path:\"20 Кампании\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 12622932
+      }
+    },
+    {
+      "query": "path:\"30 Ваншоты\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15788712
+      }
+    },
+    {
+      "query": "path:\"90 MD для Claude\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11211490
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.3,
+  "nodeSizeMultiplier": 0.814583333333333,
+  "lineSizeMultiplier": 0.533854166666667,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.05932617187500048,
+  "close": false
+}

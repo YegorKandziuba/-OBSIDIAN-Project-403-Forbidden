@@ -1,0 +1,21 @@
+# Состояние интерфейса Obsidian (меняется постоянно, у каждого своё)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+
+# Корзина Obsidian
+.trash/
+
+# Данные плагина Claudian (сессии, кэш)
+.claudian/
+
+# Остатки конфигурации старого отдельного хранилища «Красной Вуали»
+20 Кампании/Красная Вуаль/.obsidian/
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Настройки плагинов, где могут храниться токены
+.obsidian/plugins/obsidian42-brat/data.json

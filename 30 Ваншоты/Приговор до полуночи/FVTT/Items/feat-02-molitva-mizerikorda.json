@@ -1,0 +1,17 @@
+{
+  "name": "Молитва Мизерикорда",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "slug": "misericorde-prayer",
+    "category": "class",
+    "level": { "value": 4 },
+    "actionType": { "value": "passive" },
+    "actions": { "value": null },
+    "prerequisites": { "value": [ { "value": "Посвящение Экзекутора Мизерикорда" } ] },
+    "traits": { "value": [ "archetype" ], "rarity": "uncommon", "otherTags": [] },
+    "rules": [],
+    "description": { "value": "<p>Вы выучили короткую молитву, которой Орден учит тех, в ком есть дар. Вы получаете действие Сотворение заклинания. Вы — <strong>божественный</strong> заклинатель, который готовит заклинания; ключевая характеристика — <strong>Мудрость</strong>. Вы обучены броскам атаки заклинаниями и КС заклинаний (эксперт — на 12-м уровне).</p><p>Каждый день вы готовите <strong>2 фокуса</strong> и получаете ячейки по правилам <em>базовых преимуществ заклинателя</em> (Basic Spellcasting Benefits): одна ячейка 1-го ранга на 4-м уровне, одна 2-го на 6-м, одна 3-го на 8-м. Заклинания готовятся только из списка Ордена:</p><ul><li><strong>Фокусы:</strong> <em>message</em>, <em>sigil</em>, <em>ghost sound</em>, <em>shield</em>.</li><li><strong>1-й ранг:</strong> <em>sure strike</em>, <em>jump</em>, <em>pest form</em>.</li><li><strong>2-й ранг:</strong> <em>blur</em>, <em>see the unseen</em>, <em>spider climb</em>.</li><li><strong>3-й ранг</strong> (8-й уровень): по согласованию с мастером.</li></ul><p><em>Создайте на листе персонажа запись заклинателя (божественная, подготовка, Мудрость) и перетащите заклинания из компендиума.</em></p>" },
+    "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+  }
+}

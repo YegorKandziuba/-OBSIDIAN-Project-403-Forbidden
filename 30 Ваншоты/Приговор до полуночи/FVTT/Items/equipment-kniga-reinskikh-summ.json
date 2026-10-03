@@ -1,0 +1,16 @@
+{
+  "name": "Книга рейнских сумм",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "system": {
+    "slug": "ledger-of-reich-payments",
+    "level": { "value": 0 },
+    "price": { "value": {} },
+    "bulk": { "value": 0.1 },
+    "quantity": 1,
+    "usage": { "value": "held-in-one-hand" },
+    "traits": { "value": [], "rarity": "unique", "otherTags": [] },
+    "description": { "value": "<p>Приходная книга с датами, суммами и именем рейнского поверенного — денежный след рода Иггдмилленния в кампании Одель. Лежит в запертом ящике стола в кабинете (A10).</p><p><strong>Выбор:</strong> отдать Совету (нарушить сделку с Помериан), сжечь или отдать Помериан.</p>" },
+    "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+  }
+}

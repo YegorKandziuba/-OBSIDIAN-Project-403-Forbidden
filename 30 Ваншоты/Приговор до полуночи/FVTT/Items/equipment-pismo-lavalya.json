@@ -1,0 +1,16 @@
+{
+  "name": "Письмо Бастьена Лаваля",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "system": {
+    "slug": "letter-of-bastien-laval",
+    "level": { "value": 0 },
+    "price": { "value": {} },
+    "bulk": { "value": 0 },
+    "quantity": 1,
+    "usage": { "value": "held-in-one-hand" },
+    "traits": { "value": [], "rarity": "unique", "otherTags": [] },
+    "description": { "value": "<p>Сложенный вчетверо лист с оттиском янтарного сургуча (монета с дыркой). Лежит в запертом ящике стола в кабинете Одель (A10). Полный текст — журнал «Раздатки», страница «Раздатка 4».</p><p><strong>Рычаг «нарушенный договор»:</strong> прочитать вслух последние строки («Под одной звездой») и назвать Талиса — Религия, Оккультизм или Запугивание против КС Воли Одель (24).</p>" },
+    "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+  }
+}

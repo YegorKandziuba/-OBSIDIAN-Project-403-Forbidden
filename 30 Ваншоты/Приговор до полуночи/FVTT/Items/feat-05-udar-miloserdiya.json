@@ -1,0 +1,17 @@
+{
+  "name": "Удар милосердия",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "slug": "mercy-stroke",
+    "category": "class",
+    "level": { "value": 6 },
+    "actionType": { "value": "action" },
+    "actions": { "value": 2 },
+    "prerequisites": { "value": [ { "value": "Посвящение Экзекутора Мизерикорда" } ] },
+    "traits": { "value": [ "archetype" ], "rarity": "uncommon", "otherTags": [] },
+    "rules": [],
+    "description": { "value": "<p><strong>Требования</strong> Вы держите мизерикорд; цель застигнута вами врасплох.</p><hr /><p>Вы наносите тот самый удар — под ключицу, туда, где кончается доспех. Сделайте Удар мизерикордом по цели. При попадании он наносит дополнительно <strong>1d6 точного урона</strong> (2d6 на 14-м уровне).</p><p>Этот урон не складывается с другими источниками точного урона (например, со скрытой атакой плута): используйте только наибольший.</p><p><em>Добавьте 1d6 точного урона к броску вручную.</em></p>" },
+    "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+  }
+}

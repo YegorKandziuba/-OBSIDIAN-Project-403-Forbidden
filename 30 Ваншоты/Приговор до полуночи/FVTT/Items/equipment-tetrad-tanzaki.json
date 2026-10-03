@@ -1,0 +1,16 @@
+{
+  "name": "Тетрадь Танзаки",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "system": {
+    "slug": "tanzaki-notebook",
+    "level": { "value": 0 },
+    "price": { "value": {} },
+    "bulk": { "value": 0.1 },
+    "quantity": 1,
+    "usage": { "value": "held-in-one-hand" },
+    "traits": { "value": [], "rarity": "unique", "otherTags": [] },
+    "description": { "value": "<p>Тетрадь в потёртом кожаном переплёте из мастерской Тоуку Танзаки. Записи о строении духовного и физического тела, схемы, пометки на нескольких языках. Лежит в галерее Вертмюра (A15).</p><p>Оккультизм КС 22: это исследования о том, как «перестроить» тело через духовное.</p><p><strong>Выбор:</strong> отдать Помериан (её личное требование) или сдать в архив Ордена.</p>" },
+    "publication": { "title": "Приговор до полуночи (homebrew)", "authors": "", "license": "OGL", "remaster": true }
+  }
+}
