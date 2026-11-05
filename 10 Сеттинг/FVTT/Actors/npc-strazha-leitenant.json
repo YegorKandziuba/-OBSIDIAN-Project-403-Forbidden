@@ -1,0 +1,427 @@
+{
+  "name": "Лейтенант стражи Бордо",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 75,
+        "max": 75,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "level": {
+        "value": 5
+      },
+      "languages": {
+        "value": [],
+        "details": "Дэлюнское наречие, аггританский, инальский"
+      },
+      "blurb": "Офицер стражи Бордо, командир взвода (жёлтая лента)",
+      "publicNotes": "<p>Форма стражи из сукна получше, жёлтая лента, расшитая латунной нитью, от правого плеча к левому бедру.</p><p><strong>Снаряжение:</strong> шпага, пистоль, кираса под мундиром, офицерская сумка с бланками ордеров, подзорная труба; 3–8 Крон бумагой.</p>",
+      "privateNotes": "<p>Командует сменой района — около 40 человек. В бой входит, когда дозоры уже связали противника: держится за строем, стреляет и командует. Чаще всего из младших сыновей знати, выученных в Арсенале.</p>",
+      "publication": {
+        "title": "Project 403: Forbidden (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 15,
+      "details": "",
+      "senses": []
+    },
+    "saves": {
+      "fortitude": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 13,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 13,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 10
+      },
+      "diplomacy": {
+        "base": 12
+      },
+      "intimidation": {
+        "base": 13
+      },
+      "society": {
+        "base": 11
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Лор Бордо",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 13
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "ABTplyV6Y3nwAIGk",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Военный лор",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 11
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "OQ3YPvOEDnpSJhNH",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Шпага",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 14
+        },
+        "damageRolls": {
+          "sh0": {
+            "damage": "2d6+6",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "deadly-d8",
+            "disarm",
+            "finesse"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "XRjcEJ6BVZKV7MNG",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Пистоль",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 13
+        },
+        "damageRolls": {
+          "ps0": {
+            "damage": "2d4+6",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "concussive",
+            "fatal-d8",
+            "reload-1"
+          ]
+        },
+        "range": {
+          "increment": 40,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "8wKRDzfOa1g8IjUA",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Атака возможности",
+      "type": "action",
+      "system": {
+        "slug": "attack-of-opportunity",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Как в правилах PF2e.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "X0PRnAOIYYmpOLFq",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "«Строй, лунатики!»",
+      "type": "action",
+      "system": {
+        "slug": "stroi-lunatiki",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "auditory",
+            "concentrate",
+            "linguistic"
+          ]
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "description": {
+          "value": "<p><strong>Частота</strong> раз в раунд.</p><p>Лейтенант командует строем. Каждый стражник Бордо в пределах 30 футов, который его слышит, получает до начала следующего хода лейтенанта бонус состояния +1 к броскам атаки и к КБ.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "DHgmzZekYbCd0qgY",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Ордер",
+      "type": "action",
+      "system": {
+        "slug": "order-strazhi",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Лейтенант вправе выписать ордер на задержание или обыск в своём районе. Вне боя он получает бонус обстоятельств +2 к Запугиванию против горожан Бордо, кроме знати и людей Ла-Донасьона.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "IjveJ1FahmANuKhw",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Лейтенант стражи Бордо",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

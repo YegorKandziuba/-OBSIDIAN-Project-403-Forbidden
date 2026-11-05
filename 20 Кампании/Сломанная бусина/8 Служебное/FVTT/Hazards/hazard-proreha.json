@@ -1,0 +1,97 @@
+{
+  "name": "Прореха",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "system": {
+    "attributes": {
+      "ac": {
+        "value": null
+      },
+      "hardness": 0,
+      "hp": {
+        "value": 0,
+        "max": 0,
+        "temp": 0,
+        "details": ""
+      },
+      "stealth": {
+        "value": null,
+        "details": "заметна сразу"
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": [],
+      "emitsSound": false
+    },
+    "details": {
+      "level": {
+        "value": 6
+      },
+      "isComplex": true,
+      "description": "<p>Разрыв в воздухе высотой в человеческий рост в восточной тёмной части руин. Туда не падает свет. Края шевелятся, как страницы, переворачиваемые сквозняком. Если долго смотреть, в ней мелькают знакомые лица.</p><p><strong>Запечатанная Прореха</strong> перестаёт порождать Отзвуков, но до конца не закрывается — остаётся тонкий шрам в воздухе.</p>",
+      "disable": "<p>Нужно <strong>3 успеха</strong> на проверках Оккультизма, Религии или Арканы КС 22 (1 действие, манипуляция, персонаж в 10 футах от Прорехи). Критический успех считается за 2. Критический провал — сразу выходит Отзвук.</p><p><strong>Кристалл.</strong> Бросить в Прореху янтарный кристалл Агаты (1 действие, Взаимодействие) — считается за 2 успеха. Улика при этом теряется.</p>",
+      "reset": "",
+      "routine": "<p><strong>Порождение.</strong> В конце 3-го раунда, а затем каждые 2 раунда, из Прорехи выходит 1 Отзвук. При 4 игроках — в конце каждого второго раунда начиная со 2-го.</p><p><strong>Страховка мастера.</strong> Если через 5 раундов исход ясен, прекратите появление Отзвуков: Прореха «насытилась».</p>",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": null,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": null,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": null,
+        "saveDetail": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "magical"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Прореха",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

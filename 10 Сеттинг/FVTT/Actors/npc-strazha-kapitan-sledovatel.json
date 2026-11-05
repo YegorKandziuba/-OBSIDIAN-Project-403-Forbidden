@@ -1,0 +1,501 @@
+{
+  "name": "Капитан-следователь «Новолуния»",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 27,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 135,
+        "max": 135,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "level": {
+        "value": 8
+      },
+      "languages": {
+        "value": [],
+        "details": "Дэлюнское наречие, аггританский, инальский, иверийский; воровское арго Бордо"
+      },
+      "blurb": "Глава следственного отделения стражи Бордо; ранг капитана",
+      "publicNotes": "<p>Жёлтая лента с латунной нитью — как у любого офицера. Знак отделения достаёт, только когда это нужно.</p><p><strong>Снаряжение:</strong> трость-шпага, пистоль, кираса тонкой работы под сюртуком, отмычки, лупа, футляр с делами, знак отделения; 20–40 Крон бумагой.</p>",
+      "privateNotes": "<p>По рангу — капитан, но руководит не ротой, а отделением из элитных унтер-офицеров. Подчиняется только командиру стражи. Ротные капитаны не любят, когда он приходит в их районы, — и он приходит именно туда, где они что-то упустили.</p>",
+      "publication": {
+        "title": "Project 403: Forbidden (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 19,
+      "details": "",
+      "senses": []
+    },
+    "saves": {
+      "fortitude": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 19,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "deception": {
+        "base": 15
+      },
+      "diplomacy": {
+        "base": 15
+      },
+      "intimidation": {
+        "base": 16
+      },
+      "medicine": {
+        "base": 14
+      },
+      "society": {
+        "base": 18
+      },
+      "stealth": {
+        "base": 15
+      },
+      "thievery": {
+        "base": 15
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Лор Бордо",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 19
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "CVF5A9PqQj82e2se",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Лор права",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 18
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "9V5XSkz7r8h25zYS",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Лор преступного мира",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 18
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "x9mIVjdrJUk1Yhhp",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Трость-шпага",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 19
+        },
+        "damageRolls": {
+          "tsh0": {
+            "damage": "2d10+11",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "concealable",
+            "finesse"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "0v5wGu348k7m3uig",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Пистоль",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 18
+        },
+        "damageRolls": {
+          "ps0": {
+            "damage": "2d8+9",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "concussive",
+            "fatal-d8",
+            "reload-1"
+          ]
+        },
+        "range": {
+          "increment": 40,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "6XkEFMsucw8ZGnHG",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Атака возможности",
+      "type": "action",
+      "system": {
+        "slug": "attack-of-opportunity",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Как в правилах PF2e.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "DVG4TyIBKHZs2Fnk",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Подготовленная операция",
+      "type": "action",
+      "system": {
+        "slug": "podgotovlennaya-operaciya",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Если бой начинается во время операции, которую отделение готовило заранее, капитан и все следователи «Новолуния» бросают на инициативу Лор Бордо или Общество с бонусом обстоятельств +2. Противники, которые ещё не действовали в этом бою, застигнуты врасплох для них.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "RXCrtiEbJYhqzyOV",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Я видел это раньше",
+      "type": "action",
+      "system": {
+        "slug": "ya-videl-eto-ranshe",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "concentrate"
+          ]
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "description": {
+          "value": "<p><strong>Частота</strong> раз в раунд.</p><p>Капитан делает проверку Вспомнить знания (Общество или нужный Лор) о существе. При успехе он узнаёт одну слабость, сопротивление или самый высокий и самый низкий спасбросок цели и сообщает это вслух. Следователи «Новолуния», которые его слышат, получают бонус обстоятельств +1 к броскам атаки против цели до конца следующего хода капитана.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "a8o8uI5UhYycy977",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Поймать на лжи",
+      "type": "action",
+      "system": {
+        "slug": "poimat-na-lzhi",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p><strong>Триггер</strong> Существо в пределах 30 футов пытается Финт, Создать отвлечение или Солгать капитану.</p><p><strong>Эффект</strong> Капитан получает бонус обстоятельств +2 к своей КС Восприятия против этой попытки. Если попытка проваливается, существо застигнуто врасплох для капитана до конца его следующего хода.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "LrZrwCcOkQdNuqcX",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Капитан-следователь «Новолуния»",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

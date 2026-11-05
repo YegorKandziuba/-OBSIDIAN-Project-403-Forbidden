@@ -1,0 +1,362 @@
+{
+  "name": "Мшистый страж",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 6
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 5
+      },
+      "int": {
+        "mod": -2
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 120,
+        "max": 120,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [
+          {
+            "type": "swim",
+            "value": 20
+          }
+        ],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "electricity"
+        }
+      ],
+      "weaknesses": [],
+      "resistances": [
+        {
+          "type": "fire",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "level": {
+        "value": 6
+      },
+      "languages": {
+        "value": [],
+        "details": "понимает дайшуньский и дэлюнский (говорить не может)"
+      },
+      "blurb": "Страж из мастерской Тоуку Танзаки (статы шамблера)",
+      "publicNotes": "<p>Растительный страж из разграбленной мастерской Танзаки, весь в мху с каменистой равнины королевского леса. Ветераны Сферы Риверкель могут узнать этот мох (Природа или Лор Сферы Риверкель КС 18).</p>",
+      "privateNotes": "<p>Лежит кучей кустов к северу от кухни (A2). На 3 Очках тревоги меняет позицию. Не преследует за стену поместья.</p>",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 12,
+      "details": "",
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ]
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 14,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 16
+      },
+      "stealth": {
+        "base": 12,
+        "note": "+18 в лесу, на болоте или в густом саду"
+      }
+    },
+    "traits": {
+      "value": [
+        "plant"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Лоза",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 17
+        },
+        "damageRolls": {
+          "vine0": {
+            "damage": "2d8+8",
+            "damageType": "bludgeoning"
+          }
+        },
+        "traits": {
+          "value": [
+            "reach-10"
+          ]
+        },
+        "attackEffects": {
+          "value": [
+            "grab"
+          ]
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "uBrFnShaW0dCy3HM",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Холм",
+      "type": "action",
+      "system": {
+        "slug": "kholm",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Когда страж не в опасности, он за 1 минуту оседает в кучу, похожую на ворох выкорчеванных кустов, облепленных мхом. В этой форме, чтобы распознать его природу, существо должно активно Искать и преуспеть в Восприятии КС 22 (КС 28 в лесу, на болоте или в густом саду).</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "6bDebUwKg51oHhtf",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Грозовой прилив",
+      "type": "action",
+      "system": {
+        "slug": "grozovoi-priliv",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Когда страж должен получить урон электричеством или становится целью эффекта электричества, он получает 12 временных ОЗ и ускорен до конца своего следующего хода. Дополнительное действие — только Шаг, Удар или Плавание.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "YBg9OBTkst1vKPRB",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Бросок из кучи",
+      "type": "action",
+      "system": {
+        "slug": "brosok-iz-kuchi",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p><strong>Требования</strong> Страж в форме холма.</p><p><strong>Триггер</strong> Существо, не знающее его истинной природы, подходит на 10 футов.</p><p><strong>Эффект</strong> Страж делает Удар лозой по этому существу, затем бросает инициативу.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "Q2SDpBCbSudpll1I",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Хлёст лозами",
+      "type": "action",
+      "system": {
+        "slug": "khlyost-lozami",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Страж делает Удар лозой по каждому существу в досягаемости. Штраф за множественную атаку растёт только после всех атак.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "EsHHLP1BGXRjj9fF",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Мшистый страж",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

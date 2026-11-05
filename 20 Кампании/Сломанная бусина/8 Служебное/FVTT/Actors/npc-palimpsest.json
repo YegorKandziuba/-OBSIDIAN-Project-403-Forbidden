@@ -1,0 +1,534 @@
+{
+  "name": "Палимпсест",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 130,
+        "max": 130,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "precision"
+        }
+      ],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "level": {
+        "value": 6
+      },
+      "languages": {
+        "value": [],
+        "details": "нет; повторяет обрывки чужих голосов"
+      },
+      "blurb": "Существо из Прорехи. Кенотаф, Стёртый, «Гость»",
+      "publicNotes": "<p>У Ложи — Палимпсест, у Церкви — Кенотаф, у простых людей — Стёртый или «Гость». Собственного облика нет: каждый видит в нём кого-то знакомого. Не охотится, а «стирает присутствие»: следы, звуки, память, имена.</p>",
+      "privateNotes": "<p><strong>Ничего не объясняйте игрокам.</strong> При 3 игроках включите на листе шаблон Weak. Пока Агата держит целый кристалл — подчиняется ей; поводок рвётся — бьёт ближайшего, через 2 раунда уходит в Прореху.</p>",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 14,
+      "details": "чувство присутствия (неточное) 60 футов",
+      "senses": []
+    },
+    "saves": {
+      "fortitude": {
+        "value": 16,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 12,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "deception": {
+        "base": 15
+      },
+      "intimidation": {
+        "base": 13
+      },
+      "stealth": {
+        "base": 12
+      }
+    },
+    "traits": {
+      "value": [
+        "aberration",
+        "spirit",
+        "undead",
+        "unholy"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "lg"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Касание пустоты",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "kp0": {
+            "damage": "2d10+5",
+            "damageType": "bludgeoning"
+          }
+        },
+        "traits": {
+          "value": [
+            "magical",
+            "reach-10"
+          ]
+        },
+        "attackEffects": {
+          "value": [
+            "stiranie"
+          ]
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "EaMTdX8JNqThbSfW",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Отросток",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "ot0": {
+            "damage": "2d6+5",
+            "damageType": "slashing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "magical",
+            "reach-10"
+          ]
+        },
+        "attackEffects": {
+          "value": [
+            "stiranie"
+          ]
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "QsigI0BjGilHCYkd",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Чувство присутствия",
+      "type": "action",
+      "system": {
+        "slug": "chuvstvo-prisutstviya",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Палимпсест чувствует существ по их памяти и имени, а не глазами. Невидимость и темнота ему не мешают.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "cRSke0FFiWUp3Vpf",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Чужое лицо",
+      "type": "action",
+      "system": {
+        "slug": "chuzhoe-litso",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "traits": {
+          "value": [
+            "illusion",
+            "mental",
+            "visual"
+          ]
+        },
+        "description": {
+          "value": "<p>Каждый, кто смотрит на Палимпсеста, видит в нём кого-то знакомого — чаще всего того, кого потерял. Механики нет.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "ekBWQK3SCP6tSinr",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Распад",
+      "type": "action",
+      "system": {
+        "slug": "raspad",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p><em>Игрокам не сообщается.</em> Когда ОЗ Палимпсеста падают до 0, он не умирает, а распадается: тело из маны рассыпается, остаток уходит в Прореху и возвращается через 1d4 дня. Запереть остаток — ритуал «Урна для неупокоенного», ослабить в бою — «Боевое отпевание», отпустить наверняка — только Великое отпущение.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "f3WjtvHanBR6HrP6",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Стирание",
+      "type": "action",
+      "system": {
+        "slug": "stiranie",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "mental"
+          ]
+        },
+        "description": {
+          "value": "<p>Существо, получившее урон от Удара Палимпсеста, становится одурманенным 1 (или увеличивает одурманенность на 1, максимум 3). Одурманенность от «Стирания» проходит через 10 минут. Союзник рядом может потратить 1 действие (слуховое), окликнув существо по имени: одурманенность уменьшается на 1.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "iCbSGS3420ZMY0dE",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Шёпот стёртых",
+      "type": "action",
+      "system": {
+        "slug": "shyopot-styortykh",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "auditory",
+            "mental"
+          ]
+        },
+        "description": {
+          "value": "<p>Палимпсест шепчет голосами тех, кого стёр. Конус 30 футов: 7d6 ментального урона (базовый спасбросок Воли КС 24). Провал — существо не может использовать реакции до конца своего следующего хода. Палимпсест не может снова использовать «Шёпот» 1d4 раунда.</p><p>@Damage[7d6[mental]] @Check[will|dc:24|basic]</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "IooRM8z6eDHtwgEK",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Шаг сквозь пробел",
+      "type": "action",
+      "system": {
+        "slug": "shag-skvoz-probel",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "traits": {
+          "value": [
+            "teleportation"
+          ]
+        },
+        "description": {
+          "value": "<p>Палимпсест исчезает и появляется в незанятом месте в тени или темноте в пределах 30 футов. Раз в раунд.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "A9UKvZt5k4khSgOL",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Поводок кристалла",
+      "type": "action",
+      "system": {
+        "slug": "povodok-kristalla",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Пока Агата жива и держит целый янтарный кристалл Талиса, Палимпсест подчиняется ей. Если Агата мертва, кристалл разбит или брошен в Прореху, или договор нарушен, Палимпсест атакует ближайшее существо, включая Агату, а через 2 раунда пытается уйти обратно в Прореху.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "khyEQml2C7oEUIlO",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Палимпсест",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

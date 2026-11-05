@@ -1,0 +1,399 @@
+{
+  "name": "«Подарок Судьбы» — тень",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": -5
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 2
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 23,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 52,
+        "max": 52,
+        "temp": 0,
+        "details": "половина текущих ОЗ оболочки на момент сброса (не больше 52)"
+      },
+      "speed": {
+        "value": 0,
+        "otherSpeeds": [
+          {
+            "type": "fly",
+            "value": 40
+          }
+        ],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "disease"
+        },
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "mental"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "precision"
+        },
+        {
+          "type": "unconscious"
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "silver",
+          "value": 5
+        }
+      ],
+      "resistances": [
+        {
+          "type": "all-damage",
+          "value": 5,
+          "exceptions": [
+            "force",
+            "ghost-touch",
+            "vitality",
+            "silver"
+          ]
+        }
+      ]
+    },
+    "details": {
+      "level": {
+        "value": 7
+      },
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "blurb": "Бесплотная тень Талиса без оболочки",
+      "publicNotes": "<p>Безмозглая тень — только голод. Появляется, когда «Подарок Судьбы» сбрасывает оболочку. Исключение сопротивления и слабость «серебро» — это <strong>освящённое</strong> серебро Ордена (серебряные болты, окроплённые святой водой, тоже подходят).</p>",
+      "privateNotes": "<p>Выставьте текущие ОЗ = половина ОЗ оболочки на момент сброса. При &lt;15 ОЗ уходит сквозь стены и бросает Агату.</p>",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 15,
+      "details": "",
+      "senses": [
+        {
+          "type": "greater-darkvision"
+        }
+      ]
+    },
+    "saves": {
+      "fortitude": {
+        "value": 12,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 16,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 13,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 16
+      },
+      "stealth": {
+        "base": 18
+      }
+    },
+    "traits": {
+      "value": [
+        "spirit",
+        "incorporeal",
+        "mindless"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Касание пустоты",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "kas0": {
+            "damage": "2d8+4",
+            "damageType": "void"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "magical"
+          ]
+        },
+        "attackEffects": {
+          "value": [
+            "nevezenie"
+          ]
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "6sRkMnqis5TZBtEQ",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Боязнь света",
+      "type": "action",
+      "system": {
+        "slug": "boyazn-sveta",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Тень не входит по своей воле на участки яркого света. Если она начинает ход на ярком свете, она становится неуклюжей 1 до конца хода и тратит первое действие на то, чтобы уйти в тень, если может.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "CS6vaio1x6qJBOUa",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Голод",
+      "type": "action",
+      "system": {
+        "slug": "golod",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Тень атакует ближайшее живое существо, которое не несёт освящённое серебро. Если таких нет — ближайшее вообще.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "n4yHnArJQJtZH9vD",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Невезение",
+      "type": "action",
+      "system": {
+        "slug": "nevezenie",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "curse",
+            "misfortune"
+          ]
+        },
+        "description": {
+          "value": "<p>Существо, получившее урон от касания, делает свою следующую проверку до конца своего следующего хода дважды и берёт худший результат. Эффекты «Невезения» не складываются.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "Q5dLBgRfAkIlpZ5H",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Уход в стены",
+      "type": "action",
+      "system": {
+        "slug": "ukhod-v-steny",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "traits": {
+          "value": [
+            "move"
+          ]
+        },
+        "description": {
+          "value": "<p>Тень перемещается на расстояние до своей Скорости, проходя сквозь стены, пол и предметы, и может закончить движение внутри них. Внутри твёрдого предмета она скрыта. Если у неё меньше 15 ОЗ, она использует это действие, чтобы покинуть бой и особняк.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "eAFZiRKhvMMZbWId",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "«Подарок Судьбы» — тень",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

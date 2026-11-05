@@ -1,0 +1,116 @@
+{
+  "name": "Посвящение Экзекутора Мизерикорда",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "slug": "misericorde-executioner-dedication",
+    "category": "class",
+    "level": {
+      "value": 2
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "член Ордена Белого Покаяния"
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "slug": "misericorde",
+        "label": "Мизерикорд",
+        "definition": [
+          "item:base:sawtooth-saber"
+        ],
+        "sameAs": "martial"
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "stealthRank",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.Skill.Stealth",
+            "value": 1,
+            "predicate": [
+              "skill:stealth:rank:0"
+            ]
+          },
+          {
+            "label": "PF2E.Skill.Stealth",
+            "value": 2,
+            "predicate": [
+              {
+                "gte": [
+                  "skill:stealth:rank",
+                  1
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.stealth.rank",
+        "value": "@item.flags.pf2e.rulesSelections.stealthRank"
+      }
+    ],
+    "description": {
+      "value": "<p>Вы принесли обет Мизерикорда и получили свой клинок.</p><p>Вы становитесь обучены <strong>Знанию Ордена Белого Покаяния</strong> и <strong>Скрытности</strong>. Если вы уже обучены Скрытности, то становитесь в ней <strong>экспертом</strong>. <em>(Добавьте навык Лора вручную.)</em></p><p>Вы получаете доступ к <strong>мизерикорду</strong> (механически — <em>sawtooth saber</em>). Для определения мастерства мизерикорд считается для вас воинским оружием.</p><p>Когда вы доводите существо до 0 ОЗ Ударом мизерикорда, вы можете оставить на теле знак Ордена — чётки со сломанной бусиной. Механики нет.</p><p><strong>Особое</strong> Вы не можете выбрать другую черту посвящения, пока не получите две другие черты этого архетипа.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

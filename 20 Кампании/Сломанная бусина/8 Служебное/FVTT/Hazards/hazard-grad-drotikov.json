@@ -1,0 +1,236 @@
+{
+  "name": "Град дротиков",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "system": {
+    "attributes": {
+      "ac": {
+        "value": 24
+      },
+      "hardness": 14,
+      "hp": {
+        "value": 55,
+        "max": 55,
+        "temp": 0,
+        "details": "ПП 27"
+      },
+      "stealth": {
+        "value": 12,
+        "details": "(эксперт)"
+      },
+      "immunities": [
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "object-immunities"
+        },
+        {
+          "type": "precision"
+        }
+      ],
+      "weaknesses": [],
+      "resistances": [],
+      "emitsSound": "encounter"
+    },
+    "details": {
+      "level": {
+        "value": 6
+      },
+      "isComplex": false,
+      "description": "<p>Подпружиненные дротики в потолке южного коридора (A9) стреляют вниз, когда кто-то наступает на нажимную плиту. «Подарок Судьбы» охотно заманивает сюда экзекуторов внушением.</p>",
+      "disable": "<p>Воровство КС 25 (эксперт) на плите или стенной коробке.</p>",
+      "reset": "",
+      "routine": "",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": null,
+        "saveDetail": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "mechanical",
+        "trap"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Дротик",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 20
+        },
+        "damageRolls": {
+          "dr0": {
+            "damage": "4d6+12",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": []
+        },
+        "range": {
+          "increment": 30,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Плюс яд старой гигантской осы.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "6vxhn7hMVuFta5qE",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Дротики",
+      "type": "action",
+      "system": {
+        "slug": "drotiki",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p><strong>Триггер</strong> На плиту давят.</p><p><strong>Эффект</strong> Ловушка стреляет, делая атаку дротиком по каждому существу на линии 30 футов с центром на плите.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "6AgJXqf0iivxY0y6",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Яд старой гигантской осы",
+      "type": "action",
+      "system": {
+        "slug": "yad-staroi-gigantskoi-osy",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "poison"
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Спасбросок</strong> @Check[fortitude|dc:22]; <strong>Максимальная длительность</strong> 6 раундов; <strong>Стадия 1</strong> 2d6 урона ядом и неуклюжий 1 (1 раунд); <strong>Стадия 2</strong> 3d6 урона ядом и неуклюжий 2 (1 раунд); <strong>Стадия 3</strong> 4d6 урона ядом и неуклюжий 2 (1 раунд).</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "V3HmdZS1513Eyj1f",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Град дротиков",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

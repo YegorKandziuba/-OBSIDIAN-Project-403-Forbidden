@@ -1,0 +1,400 @@
+{
+  "name": "Брат Тибо Ренар",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 22,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 75,
+        "max": 75,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "level": {
+        "value": 5
+      },
+      "languages": {
+        "value": [],
+        "details": "Дэлюнское наречие, аггританский, инальский"
+      },
+      "blurb": "Экзекутор Мизерикорда, союзник при 3 игроках",
+      "publicNotes": "<p>Спокойный стрелок, держится на шаг позади. Давний напарник сестры Сесиль.</p><p><strong>Снаряжение:</strong> композитный короткий лук (30 стрел), мизерикорд, кожаная броня, белая маска Мизерикорда, чётки, набор лекаря.</p>",
+      "privateNotes": "<p>В препятствиях проникновения не бросает. В бою — одно действие поддержки за раунд (выстрел, Помощь, Боевая медицина) или управление игроками по очереди. Может выполнять «Тихий приговор» из лука.</p>",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 12,
+      "details": "",
+      "senses": []
+    },
+    "saves": {
+      "fortitude": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 12,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 10
+      },
+      "medicine": {
+        "base": 11
+      },
+      "religion": {
+        "base": 11
+      },
+      "stealth": {
+        "base": 13
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Лор Ордена Белого Покаяния",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 12
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "MavSBGXeeusf8WTy",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Мизерикорд",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 13
+        },
+        "damageRolls": {
+          "mz0": {
+            "damage": "1d6+6",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "twin"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "jLWEttT9KLazPeGl",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Композитный короткий лук",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 15
+        },
+        "damageRolls": {
+          "bow0": {
+            "damage": "1d6+7",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "deadly-d10",
+            "reload-0"
+          ]
+        },
+        "range": {
+          "increment": 60,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "QI6Q92z8JK04uaiu",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Последнее отпущение",
+      "type": "action",
+      "system": {
+        "slug": "poslednee-otpushchenie",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "defensive",
+        "traits": {
+          "value": [
+            "divine",
+            "healing"
+          ]
+        },
+        "frequency": {
+          "max": 2,
+          "per": "day",
+          "value": 2
+        },
+        "description": {
+          "value": "<p><strong>Частота</strong> дважды в день.</p><p>На 1 минуту Тибо получает быстрое лечение 3. Если он умирает, пока дымка активна, его тело сгорает белым пламенем.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "Y7TMcJeHQHBLXjMQ",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Прикрывающий выстрел",
+      "type": "action",
+      "system": {
+        "slug": "prikryvayushchii-vystrel",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Тибо стреляет рядом с врагом, который угрожает союзнику. Сделайте Удар луком. При попадании — обычный урон, а союзник получает +1 бонус обстоятельства к КБ против этого врага до начала следующего хода Тибо.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "8spqivXFHr3SNTWb",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Боевая медицина",
+      "type": "action",
+      "system": {
+        "slug": "boevaya-medicina",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "traits": {
+          "value": [
+            "healing",
+            "manipulate"
+          ]
+        },
+        "description": {
+          "value": "<p>Как черта навыка Battle Medicine: Медицина +11 против КС 15, союзник восстанавливает 2d8 ОЗ. Один раз в день на каждого союзника.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "9jhCoYth17PBbG5h",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Брат Тибо Ренар",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": 1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

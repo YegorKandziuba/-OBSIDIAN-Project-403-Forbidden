@@ -1,0 +1,151 @@
+{
+  "name": "Гнев севера",
+  "type": "hazard",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "system": {
+    "attributes": {
+      "ac": {
+        "value": 24
+      },
+      "hardness": 10,
+      "hp": {
+        "value": 60,
+        "max": 60,
+        "temp": 0,
+        "details": "ПП 30"
+      },
+      "stealth": {
+        "value": 15,
+        "details": "(эксперт)"
+      },
+      "immunities": [
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "object-immunities"
+        },
+        {
+          "type": "precision"
+        }
+      ],
+      "weaknesses": [],
+      "resistances": [],
+      "emitsSound": "encounter"
+    },
+    "details": {
+      "level": {
+        "value": 6
+      },
+      "isComplex": false,
+      "description": "<p>Чучело огромного полярного медведя в большом зале Вертмюра (A5) поворачивается к чужакам и выдыхает ледяной ветер.</p><p>Тихо проскользнуть в наружную дверь, чтобы ловушка не заметила: Скрытность КС 22. Произнести вслух девиз де Сильвандров «Зелёная стена против злых ветров» — ловушка отключается на 5 минут (+1 Очко тревоги).</p>",
+      "disable": "<p>Воровство КС 22 (эксперт) на основании чучела. Снаружи обезвредить нельзя.</p>",
+      "reset": "<p>10 минут.</p>",
+      "routine": "",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "saves": {
+      "fortitude": {
+        "value": 17,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": null,
+        "saveDetail": ""
+      }
+    },
+    "traits": {
+      "value": [
+        "cold",
+        "magical",
+        "trap"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "lg"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Выдох",
+      "type": "action",
+      "system": {
+        "slug": "vydokh",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "cold"
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Триггер</strong> Существо входит в одну из отмеченных зон у наружных дверей или остаётся в зале 1 минуту.</p><p><strong>Эффект</strong> Ловушка выдыхает холод взрывом радиусом 15 футов с центром на триггерном существе: @Damage[4d8+18[cold]] (@Check[reflex|dc:24|basic]). Критический провал — неуклюжий 1 на 10 минут от обморожения.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "rQC49h0BYFmVijZd",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Гнев севера",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

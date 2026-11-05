@@ -1,0 +1,473 @@
+{
+  "name": "Капитан стражи Бордо",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 4
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 115,
+        "max": 115,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "level": {
+        "value": 7
+      },
+      "languages": {
+        "value": [],
+        "details": "Дэлюнское наречие, аггританский, инальский"
+      },
+      "blurb": "Офицер стражи Бордо, командир роты одного-двух районов (жёлтая лента)",
+      "publicNotes": "<p>Тонкое сукно, жёлтая лента с латунной нитью, начищенная лунная бляха, часто — конь.</p><p><strong>Снаряжение:</strong> шпага хорошей работы, пара пистолей, кираса, печать роты, ключи от участка; 10–30 Крон бумагой.</p>",
+      "privateNotes": "<p>Отвечает перед командиром стражи за свои районы, перед знатью — за тишину, перед Сенешалем — за всё сразу. В бою появляется, когда дело уже серьёзно: приходит с резервом и решает, брать живыми или нет.</p>",
+      "publication": {
+        "title": "Project 403: Forbidden (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 18,
+      "details": "",
+      "senses": []
+    },
+    "saves": {
+      "fortitude": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 15,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 16,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 13
+      },
+      "diplomacy": {
+        "base": 15
+      },
+      "intimidation": {
+        "base": 16
+      },
+      "society": {
+        "base": 15
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "uncommon",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Лор Бордо",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 17
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "gLtecKR9N2l0KRxx",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Военный лор",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 15
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "xn7pKiYHz8qYYQLl",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Шпага",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 17
+        },
+        "damageRolls": {
+          "sh0": {
+            "damage": "2d8+8",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "deadly-d8",
+            "disarm",
+            "finesse"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "vImjfUiyoQv2BEnt",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Пистоль",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "ps0": {
+            "damage": "2d6+6",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "concussive",
+            "fatal-d8",
+            "reload-1"
+          ]
+        },
+        "range": {
+          "increment": 40,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Два заряженных пистоля: первый выстрел в бою без перезарядки.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "koqX7lkcDGqTdF5c",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Атака возможности",
+      "type": "action",
+      "system": {
+        "slug": "attack-of-opportunity",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Как в правилах PF2e.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "7fYlzkn91Hldo05y",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "«Строй, лунатики!»",
+      "type": "action",
+      "system": {
+        "slug": "stroi-lunatiki",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "auditory",
+            "concentrate",
+            "linguistic"
+          ]
+        },
+        "frequency": {
+          "max": 1,
+          "per": "round",
+          "value": 1
+        },
+        "description": {
+          "value": "<p><strong>Частота</strong> раз в раунд.</p><p>Как у лейтенанта, но за одно действие и в пределах 60 футов: стражники Бордо получают до начала следующего хода капитана бонус состояния +1 к броскам атаки и к КБ.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "cCyJPTLtntSCJs5V",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Знаю этот город",
+      "type": "action",
+      "system": {
+        "slug": "znayu-etot-gorod",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>В Бордо капитан может бросать на инициативу Лор Бордо вместо Восприятия. В своих районах он знает проходы, крыши и подвалы: если капитан успел осмотреть место заранее, его пистоли игнорируют малое укрытие от городских построек.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "cEAhDUwPJK0Wsg0M",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Решение капитана",
+      "type": "action",
+      "system": {
+        "slug": "reshenie-kapitana",
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "interaction",
+        "traits": {
+          "value": [
+            "auditory"
+          ]
+        },
+        "frequency": {
+          "max": 1,
+          "per": "day",
+          "value": 1
+        },
+        "description": {
+          "value": "<p><strong>Частота</strong> раз в день.</p><p>Капитан объявляет: «Живыми!» или «Огонь!». «Живыми» — до конца боя стражники Бордо, которые его слышат, получают бонус обстоятельств +2 к проверкам Атлетики, чтобы Схватить и Сбить с ног. «Огонь» — до конца боя они игнорируют штраф −2 за второе приращение дальности у мушкетов и пистолей.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "wHg9oLt5Cs2Hgjma",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Капитан стражи Бордо",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

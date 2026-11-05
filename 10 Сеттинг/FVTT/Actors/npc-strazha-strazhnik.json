@@ -1,0 +1,433 @@
+{
+  "name": "Стражник Бордо",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 3
+      },
+      "dex": {
+        "mod": 2
+      },
+      "con": {
+        "mod": 2
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 20,
+        "max": 20,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "details": {
+      "level": {
+        "value": 1
+      },
+      "languages": {
+        "value": [],
+        "details": "Дэлюнское наречие, аггританский"
+      },
+      "blurb": "Рядовой городской стражи Бордо («лунатик»)",
+      "publicNotes": "<p>Светлый синий мундир, некрашеный низ, синий берет, тёмно-синий плащ стражи, начищенная латунная лунная бляха.</p><p><strong>Снаряжение:</strong> тесак, дубинка, у части — мушкет; кольчужная рубаха под мундиром, кандалы, сигнальный свисток, фонарь; 20–40 сантимов.</p>",
+      "privateNotes": "<p>Ходит дозором по 8–10 человек под началом сержанта. Сначала требует остановиться и бьёт дубинкой, чтобы взять живым. Клинок и мушкет — когда противник вооружён. Один не дерётся: свистит и держит, пока не подойдут свои.</p>",
+      "publication": {
+        "title": "Project 403: Forbidden (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 8,
+      "details": "",
+      "senses": []
+    },
+    "saves": {
+      "fortitude": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 5,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 4,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 7
+      },
+      "intimidation": {
+        "base": 5
+      },
+      "society": {
+        "base": 3
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Лор Бордо",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 5
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "Pniw0rGajBg6DVHE",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Тесак",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 8
+        },
+        "damageRolls": {
+          "ts0": {
+            "damage": "1d6+2",
+            "damageType": "slashing"
+          }
+        },
+        "traits": {
+          "value": []
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "150BFTCrlaOXqJsj",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Дубинка",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 8
+        },
+        "damageRolls": {
+          "db0": {
+            "damage": "1d4+2",
+            "damageType": "bludgeoning"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "nonlethal"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "fkXvYZfxiS0oVGVN",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Мушкет",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 7
+        },
+        "damageRolls": {
+          "mk0": {
+            "damage": "1d6+2",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "concussive",
+            "fatal-d10",
+            "reload-1"
+          ]
+        },
+        "range": {
+          "increment": 70,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Не у каждого: в дозоре мушкеты у двух-трёх человек.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "bydbeE7NNBwDnEBp",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Плечом к плечу",
+      "type": "action",
+      "system": {
+        "slug": "plechom-k-plechu",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Пока рядом со стражником стоит другой стражник Бордо, стражник получает бонус обстоятельств +1 к КБ.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "TJlRZa1RBXCeJlt1",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Сигнальный свисток",
+      "type": "action",
+      "system": {
+        "slug": "signalnyi-svistok-strazhi",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "traits": {
+          "value": [
+            "auditory"
+          ]
+        },
+        "description": {
+          "value": "<p>Стражник свистит условным сигналом. Ближайший дозор подходит через 1d4 раунда (обычно сержант и 2–4 стражника). Ночью, когда мосты разведены, подмога может не прийти с соседнего острова.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "FWOTo1SyiHF8FYcx",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Взять под стражу",
+      "type": "action",
+      "system": {
+        "slug": "vzyat-pod-strazhu",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "manipulate"
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Требования</strong> Цель схвачена, обездвижена, без сознания или сдалась, и находится в досягаемости.</p><p><strong>Эффект</strong> Стражник надевает на цель кандалы по обычным правилам кандалов.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "OmorKY8qsYykb7Mb",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Стражник Бордо",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

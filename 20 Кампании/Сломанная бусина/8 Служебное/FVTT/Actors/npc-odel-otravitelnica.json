@@ -1,0 +1,714 @@
+{
+  "name": "Агата Бранкович — Отравительница",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 4
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 115,
+        "max": 115,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": [
+        {
+          "type": "poison",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "level": {
+        "value": 7
+      },
+      "languages": {
+        "value": [],
+        "details": "Дэлюнское наречие, аггританский, южное наречие"
+      },
+      "blurb": "Кандидатка в совет Бордо, послушница Талиса Серебряного",
+      "publicNotes": "<p>Глава торгового рода Бранкович. Убила соперников по выборам, подделав почерк Мизерикорда. Алхимик-отравительница и фехтовальщица. Уверена в своей удаче, пока цел янтарный кристалл Талиса.</p><p><strong>Снаряжение:</strong> умеренный алхимический огонь (2), умеренная бутылочная молния (2), кинжалы (4), умеренный эликсир тёмного зрения, умеренный эликсир жизни, яд гигантского скорпиона (2), яд гигантской осы, кожаная броня, янтарный кристалл Талиса, +1 разящий короткий меч. Яды и эликсиры добавьте из компендиума.</p>",
+      "privateNotes": "<p>Тактика — «04 - Руины и Прореха.md». При 30 ОЗ пытается уйти в канализацию. Рычаг «нарушенный договор» отключает «Заряды удачи» и «Проблеск будущего».</p>",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 12,
+      "details": "",
+      "senses": []
+    },
+    "saves": {
+      "fortitude": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 18,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 14,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 16
+      },
+      "crafting": {
+        "base": 17
+      },
+      "deception": {
+        "base": 16
+      },
+      "intimidation": {
+        "base": 14
+      },
+      "religion": {
+        "base": 12
+      },
+      "stealth": {
+        "base": 16
+      },
+      "thievery": {
+        "base": 14
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Лор убийц",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 15
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "lPBYVkZYXE9FDzFZ",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Короткий меч",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 17
+        },
+        "damageRolls": {
+          "ss0": {
+            "damage": "2d6+7",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "versatile-s",
+            "magical"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "uIehAgTjEp0B313M",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Кинжал",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "dg0": {
+            "damage": "1d4+7",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "thrown-10",
+            "versatile-s"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "A7UbPPrxGYLcFWJd",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Кинжал (метательный)",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "dgr0": {
+            "damage": "1d4+7",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "thrown-10",
+            "versatile-s"
+          ]
+        },
+        "range": {
+          "increment": 10,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "loSLLJy05WrvPC4J",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Бомба: алхимический огонь (умеренный)",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "af0": {
+            "damage": "2d6",
+            "damageType": "fire"
+          },
+          "af1": {
+            "damage": "2",
+            "damageType": "fire",
+            "category": "persistent"
+          },
+          "af2": {
+            "damage": "2",
+            "damageType": "fire",
+            "category": "splash"
+          }
+        },
+        "traits": {
+          "value": [
+            "splash",
+            "fire"
+          ]
+        },
+        "range": {
+          "increment": 30,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>2 штуки.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "HYs1g6Xkvwoi5jLs",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Бомба: бутылочная молния (умеренная)",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "bl0": {
+            "damage": "2d6",
+            "damageType": "electricity"
+          },
+          "bl1": {
+            "damage": "2",
+            "damageType": "electricity",
+            "category": "splash"
+          }
+        },
+        "traits": {
+          "value": [
+            "splash",
+            "electricity"
+          ]
+        },
+        "range": {
+          "increment": 30,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>2 штуки. При попадании цель застигнута врасплох до начала своего следующего хода.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "18Fbm82MbxR5Ayfv",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Проблеск будущего",
+      "type": "action",
+      "system": {
+        "slug": "problesk-budushchego",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": [
+            "fortune",
+            "prediction"
+          ]
+        },
+        "description": {
+          "value": "<p>Агата бросает инициативу дважды и берёт лучший результат. Теряется, если кристалл разбит или договор нарушен.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "Wg7Ao5WZUrFJc55B",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Заряды удачи",
+      "type": "action",
+      "system": {
+        "slug": "zaryady-udachi",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": [
+            "divine",
+            "misfortune"
+          ]
+        },
+        "frequency": {
+          "max": 3,
+          "per": "PT1H",
+          "value": 3
+        },
+        "description": {
+          "value": "<p><strong>Частота</strong> 3 раза за бой (заряды в кристалле).</p><p><strong>Триггер</strong> Существо попадает по Агате Ударом.</p><p><strong>Эффект</strong> Атакующий перебрасывает бросок атаки и должен взять второй результат. Теряется, если кристалл разбит или договор нарушен.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "hiZgdSQ5AjokHve3",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Безрассудный яд",
+      "type": "action",
+      "system": {
+        "slug": "bezrassudnyi-yad",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p><strong>Триггер</strong> Существо критически промахивается Ударом ближнего боя по Агате.</p><p><strong>Требования</strong> Триггерное существо под действием яда.</p><p><strong>Эффект</strong> Существо делает Удар ближнего боя по другому существу по выбору Агаты в своей досягаемости. Штраф за множественную атаку к этому Удару не применяется.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "8ZO67Sn1e9u6CQ7s",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Подлый укол",
+      "type": "action",
+      "system": {
+        "slug": "podlyi-ukol",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "rules": [
+          {
+            "key": "DamageDice",
+            "selector": "strike-damage",
+            "diceNumber": 2,
+            "dieSize": "d6",
+            "damageType": "poison",
+            "predicate": [
+              "target:condition:off-guard",
+              {
+                "or": [
+                  "item:damage:type:piercing",
+                  "item:damage:type:slashing"
+                ]
+              }
+            ]
+          }
+        ],
+        "description": {
+          "value": "<p>Агата наносит дополнительные 2d6 урона ядом, когда наносит колющий или рубящий урон существу, застигнутому врасплох.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "m9jt9HkN91KFWATb",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Быстрый бомбардир",
+      "type": "action",
+      "system": {
+        "slug": "bystryi-bombardir",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p>Агата Взаимодействует, чтобы достать бомбу, и сразу делает ею Удар.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "E4ZlQyaVqxkQzWQo",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Ядовитый росчерк",
+      "type": "action",
+      "system": {
+        "slug": "yadovityi-roscherk",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p><strong>Требования</strong> У Агаты свободна одна рука.</p><p><strong>Эффект</strong> Агата Взаимодействует, чтобы достать яд для ранений, наносит его на колющее или рубящее оружие в руке и делает Удар.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "ju5zpsX3D8e70wLf",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Агата Бранкович — Отравительница",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

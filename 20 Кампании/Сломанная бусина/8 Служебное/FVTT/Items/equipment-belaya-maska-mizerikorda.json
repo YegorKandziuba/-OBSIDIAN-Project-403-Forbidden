@@ -1,0 +1,59 @@
+{
+  "name": "Белая маска Мизерикорда",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "system": {
+    "slug": "white-mask-of-the-misericorde",
+    "level": {
+      "value": 0
+    },
+    "price": {
+      "value": {}
+    },
+    "bulk": {
+      "value": 0.1
+    },
+    "quantity": 1,
+    "usage": {
+      "value": "worn-headwear"
+    },
+    "traits": {
+      "value": [
+        "invested",
+        "magical"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>Гладкая белая маска без рта — «Орден не спорит». Маску сестры Сесиль после её гибели бросили в чулан (A14).</p><p><strong>Свойства</strong> — как у <em>hat of disguise</em> (шляпа маскировки), механически та же вещь, что маска Красной Богомолки у прегенов. Перенесите активацию, уровень и цену из компендиума.</p>"
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

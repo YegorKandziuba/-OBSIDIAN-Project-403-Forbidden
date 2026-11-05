@@ -1,0 +1,79 @@
+{
+  "name": "Последнее отпущение",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "slug": "last-absolution",
+    "category": "class",
+    "level": {
+      "value": 6
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "frequency": {
+      "max": 2,
+      "per": "day",
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Посвящение Экзекутора Мизерикорда"
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "divine",
+        "healing"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "rules": [],
+    "description": {
+      "value": "<p><strong>Частота</strong> дважды в день.</p><hr /><p>Вы шепчете молитву Последнего отпущения, и вас окутывает бледная, едва тёплая дымка пепла. На 1 минуту вы получаете <strong>быстрое лечение 3</strong>. Пока дымка активна, вы можете Взаимодействовать с ней, закрутив её вокруг себя: +1 бонус обстоятельства к КБ до начала вашего следующего хода.</p><p>Если вы умираете, пока дымка активна, ваше тело сгорает белым пламенем, оставляя только снаряжение и пепел. Решение принимается в момент активации.</p><p><em>Примените эффект «Эффект: Последнее отпущение».</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

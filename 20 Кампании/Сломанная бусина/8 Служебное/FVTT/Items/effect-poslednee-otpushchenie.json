@@ -1,0 +1,65 @@
+{
+  "name": "Эффект: Последнее отпущение",
+  "type": "effect",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "system": {
+    "slug": "effect-last-absolution",
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": 3
+      }
+    ],
+    "description": {
+      "value": "<p>Бледная дымка пепла: быстрое лечение 3 на 1 минуту. Взаимодействие с дымкой — +1 бонус обстоятельства к КБ до начала вашего следующего хода (примените вручную).</p>"
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Тетрадь Танзаки",
+  "type": "equipment",
+  "img": "systems/pf2e/icons/default-icons/equipment.svg",
+  "system": {
+    "slug": "tanzaki-notebook",
+    "level": {
+      "value": 0
+    },
+    "price": {
+      "value": {}
+    },
+    "bulk": {
+      "value": 0.1
+    },
+    "quantity": 1,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "traits": {
+      "value": [],
+      "rarity": "unique",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>Тетрадь в потёртом кожаном переплёте из мастерской Тоуку Танзаки. Записи о строении духовного и физического тела, схемы, пометки на нескольких языках. Лежит в галерее Вертмюра (A15).</p><p>Оккультизм КС 22: это исследования о том, как «перестроить» тело через духовное.</p><p><strong>Выбор:</strong> отдать Помериан (её личное требование) или сдать в архив Ордена.</p>"
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

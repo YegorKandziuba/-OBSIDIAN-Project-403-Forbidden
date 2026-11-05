@@ -1,0 +1,81 @@
+{
+  "name": "+1 кровопускающий мизерикорд сестры Сесиль",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/default-icons/weapon.svg",
+  "system": {
+    "slug": "bloodletting-misericorde-cecile",
+    "baseItem": "sawtooth-saber",
+    "category": "advanced",
+    "group": "sword",
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "bonus": {
+      "value": 0
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "runes": {
+      "potency": 1,
+      "striking": 0,
+      "property": []
+    },
+    "level": {
+      "value": 0
+    },
+    "price": {
+      "value": {}
+    },
+    "bulk": {
+      "value": 0.1
+    },
+    "quantity": 1,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "traits": {
+      "value": [
+        "agile",
+        "finesse",
+        "twin",
+        "magical"
+      ],
+      "rarity": "unique",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>Мизерикорд сестры Сесиль Дюваль. Агата повесила его трофеем над камином в большом зале Вертмюра (A5). Лор Ордена КС 16 — узнать клинок Сесиль.</p><p><strong>Свойства</strong> — как у <em>bloodletting kukri</em> (Core Rulebook 600), но на базе зубчатой сабли. Перенесите способности, уровень и цену из компендиума вашей версии системы.</p>"
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Мизерикорд",
+  "type": "weapon",
+  "img": "systems/pf2e/icons/default-icons/weapon.svg",
+  "system": {
+    "slug": "misericorde",
+    "baseItem": "sawtooth-saber",
+    "category": "advanced",
+    "group": "sword",
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "bonus": {
+      "value": 0
+    },
+    "bonusDamage": {
+      "value": 0
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "level": {
+      "value": 0
+    },
+    "price": {
+      "value": {
+        "gp": 5
+      }
+    },
+    "bulk": {
+      "value": 0.1
+    },
+    "quantity": 1,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "traits": {
+      "value": [
+        "agile",
+        "finesse",
+        "twin"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>Узкий трёхгранный клинок милосердия — оружие экзекуторов отряда Мизерикорд. Механически — зубчатая сабля (sawtooth saber). Посвящение Экзекутора Мизерикорда позволяет считать его воинским оружием.</p><p><em>Цена — ориентир по зубчатой сабле; сверьте с компендиумом вашей версии системы.</em></p>"
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

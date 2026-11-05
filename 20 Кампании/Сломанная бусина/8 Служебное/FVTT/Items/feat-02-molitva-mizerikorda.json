@@ -1,0 +1,72 @@
+{
+  "name": "Молитва Мизерикорда",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "slug": "misericorde-prayer",
+    "category": "class",
+    "level": {
+      "value": 4
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Посвящение Экзекутора Мизерикорда"
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "rules": [],
+    "description": {
+      "value": "<p>Вы выучили короткую молитву, которой Орден учит тех, в ком есть дар. Вы получаете действие Сотворение заклинания. Вы — <strong>божественный</strong> заклинатель, который готовит заклинания; ключевая характеристика — <strong>Мудрость</strong>. Вы обучены броскам атаки заклинаниями и КС заклинаний (эксперт — на 12-м уровне).</p><p>Каждый день вы готовите <strong>2 фокуса</strong> и получаете ячейки по правилам базовых преимуществ заклинателя (<em>Basic Spellcasting Benefits</em>): одна ячейка 1-го ранга на 4-м уровне, одна 2-го на 6-м, одна 3-го на 8-м. Заклинания готовятся только из списка Ордена:</p><ul><li><strong>Фокусы:</strong> @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{Сообщение}, @UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{Сигил}, @UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{Призрачный звук}, @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{Щит}.</li><li><strong>1-й ранг:</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Верный удар}, @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Прыжок}, @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Форма вредителя}.</li><li><strong>2-й ранг:</strong> @UUID[Compendium.pf2e.spells-srd.Item.3JG1t3T4mWn6vTke]{Расплывчатость}, @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{Увидеть невидимое}.</li><li><strong>3-й ранг:</strong> @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{Яснослышание}, @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Паралич}.</li></ul><p>Создайте на листе персонажа запись заклинателя (божественная, подготовка, Мудрость) и перетащите заклинания из компендиума.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Творец",
+  "type": "deity",
+  "img": "systems/pf2e/icons/default-icons/deity.svg",
+  "system": {
+    "description": {
+      "gm": "<p><strong>Только для мастера.</strong> Творец — это забытый <strong>Миррелин</strong>, Первый из Фей и последний выживший прошлого цикла, давно умерший. Культ этого не помнит. Таинства черпают силу «от его лица» благодаря глобальному бессознательному Кирии. С Истоком Творец напрямую не связан.</p><p><strong>Черновик (Claude, 2026-10-13).</strong> Утверждено: оба божественных источника (исцеление и вред). Предложения: атрибуты, навык, оружие, домены, заклинания жреца, заповеди и анафема — правьте прямо здесь.</p>",
+      "value": "<p>Творец — единый бог, создатель мира. Семеро, правившие Кирией семь с половиной тысяч лет, не были богами: они присвоили себе место Творца и его поклонение. В Ночь Бессилия Всевышних Творец отнял у них украденный свет — с неё ведётся счёт Новой Эры. Три течения Церкви — Вселенская Церковь, Церковь Слова и Мэнская Королевская Церковь — спорят о власти и толковании, но верят в одного Творца, и сила их Таинств одна.</p><p>Чудо принадлежит Творцу. Священник лишь проводит его — и всякий, кто присваивает чудо себе, повторяет грех Семерых.</p><hr /><p><strong>Заповеди:</strong> передавать души умерших Творцу обрядом отпущения; искоренять наследие Лже-Богов, их культы и демонопоклонство; хранить тайну чуда от непосвящённых; служить Церкви и её пастве.</p><p><strong>Анафема:</strong> присваивать себе место или чудо Творца; поклоняться Лже-Богам или демонам; удерживать душу, не отпуская её к Творцу, — создавать нежить; раскрывать чудо ради собственной славы.</p><p><strong>Священный символ:</strong> светило без лучей — круг света, вокруг которого семь погасших лучей.</p><p><strong>Священный цвет:</strong> белый.</p><p><strong>Излюбленное оружие:</strong> кинжал — «клинок милосердия», которым добивали раненых на поле боя.</p><p><strong>Домены:</strong> Солнце, Творение, Душа, Истина.</p><p><strong>Альтернативные домены:</strong> Исцеление, Защита, Долг, Рвение, Бдение.</p>"
+    },
+    "rules": [],
+    "slug": "tvorec",
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "Project 403: Forbidden",
+      "authors": "KandJX",
+      "license": "ORC",
+      "remaster": true
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "sun",
+        "creation",
+        "soul",
+        "truth"
+      ],
+      "alternate": [
+        "healing",
+        "protection",
+        "duty",
+        "zeal",
+        "vigil"
+      ]
+    },
+    "font": [
+      "heal",
+      "harm"
+    ],
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "skill": [
+      "society"
+    ],
+    "weapons": [
+      "dagger"
+    ],
+    "spells": {
+      "1": "Compendium.pf2e.spells-srd.Item.8xRzLhwGL7Dgy3EZ",
+      "2": "Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0",
+      "3": "Compendium.pf2e.spells-srd.Item.DyiD239dNS7RIxZE",
+      "5": "Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

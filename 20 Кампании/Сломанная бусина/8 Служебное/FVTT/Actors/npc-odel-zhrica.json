@@ -1,0 +1,592 @@
+{
+  "name": "Агата Бранкович — Жрица",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "mod": 1
+      },
+      "dex": {
+        "mod": 5
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": 1
+      },
+      "wis": {
+        "mod": 4
+      },
+      "cha": {
+        "mod": 3
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 25,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "hp": {
+        "value": 115,
+        "max": 115,
+        "temp": 0,
+        "details": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": [
+        {
+          "type": "poison",
+          "value": 5
+        }
+      ]
+    },
+    "details": {
+      "level": {
+        "value": 7
+      },
+      "languages": {
+        "value": [],
+        "details": "Дэлюнское наречие, аггританский, южное наречие"
+      },
+      "blurb": "Запасной вариант: жрица Талиса",
+      "publicNotes": "<p>Вариант Агаты-жрицы. Использовать вместо «Отравительницы»; при подготовке поменяйте местами второй пункт успеха и критический провал «Раскрыть тайны Агаты».</p><p><strong>Снаряжение:</strong> кинжалы (4), умеренный эликсир тёмного зрения, умеренный эликсир жизни, яд гигантского скорпиона (2), яд гигантской осы, кожаная броня, янтарный кристалл Талиса (божественный фокус), +1 разящий короткий меч.</p>",
+      "privateNotes": "<p>Колдует <em>invisibility</em> и бьёт «Вредоносным ударом». Если договор нарушен — теряет все неизрасходованные заклинания 4-го ранга.</p>",
+      "publication": {
+        "title": "Сломанная бусина (homebrew)",
+        "authors": "",
+        "license": "ORC",
+        "remaster": true
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "perception": {
+      "mod": 17,
+      "details": "",
+      "senses": []
+    },
+    "saves": {
+      "fortitude": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 16,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 17,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 16
+      },
+      "crafting": {
+        "base": 12
+      },
+      "deception": {
+        "base": 16
+      },
+      "intimidation": {
+        "base": 14
+      },
+      "religion": {
+        "base": 17
+      },
+      "stealth": {
+        "base": 16
+      },
+      "thievery": {
+        "base": 14
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    },
+    "resources": {
+      "focus": {
+        "value": 1,
+        "max": 1
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    }
+  },
+  "items": [
+    {
+      "name": "Лор убийц",
+      "type": "lore",
+      "system": {
+        "mod": {
+          "value": 12
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "Y0goXOXS02lLiFhZ",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Короткий меч",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 17
+        },
+        "damageRolls": {
+          "ss0": {
+            "damage": "2d6+7",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "versatile-s",
+            "magical"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "Uwlrdo5rJbQuRUiF",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Кинжал",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "dg0": {
+            "damage": "1d4+7",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "thrown-10",
+            "versatile-s"
+          ]
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "d409p3C8QiSJmCcL",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Кинжал (метательный)",
+      "type": "melee",
+      "system": {
+        "bonus": {
+          "value": 16
+        },
+        "damageRolls": {
+          "dgr0": {
+            "damage": "1d4+7",
+            "damageType": "piercing"
+          }
+        },
+        "traits": {
+          "value": [
+            "agile",
+            "thrown-10",
+            "versatile-s"
+          ]
+        },
+        "range": {
+          "increment": 10,
+          "max": null
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "description": {
+          "value": ""
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "77UqLmDgkaZ93IYO",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Подготовленные божественные заклинания",
+      "type": "spellcastingEntry",
+      "system": {
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "prepared"
+        },
+        "spelldc": {
+          "value": 17,
+          "dc": 25
+        },
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "description": {
+          "value": "<p>Перетащите из компендиума: 4-й — <em>harm</em> ×4, <em>heal</em>, <em>invisibility</em>; 3-й — <em>dispel magic</em>, <em>fear</em>, <em>vampiric touch</em>; 2-й — <em>darkvision</em>, <em>faerie fire</em>, <em>restore senses</em>; фокусы (4-й) — <em>detect magic</em>, <em>guidance</em>, <em>shield</em>.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "MlXJJDy9PVpIq7Wg",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Заклинания домена",
+      "type": "spellcastingEntry",
+      "system": {
+        "tradition": {
+          "value": "divine"
+        },
+        "prepared": {
+          "value": "focus"
+        },
+        "spelldc": {
+          "value": 17,
+          "dc": 25
+        },
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "description": {
+          "value": "<p>1 очко фокуса. Перетащите из компендиума: <em>sudden shift</em> (4-й).</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "d21P8M2T0Bs1QSOL",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Проблеск будущего",
+      "type": "action",
+      "system": {
+        "slug": "problesk-budushchego",
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": [
+            "fortune",
+            "prediction"
+          ]
+        },
+        "description": {
+          "value": "<p>Агата бросает инициативу дважды и берёт лучший результат. Теряется, если кристалл разбит или договор нарушен.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "KoC093QdRBANKwuX",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Заряды удачи",
+      "type": "action",
+      "system": {
+        "slug": "zaryady-udachi",
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "traits": {
+          "value": [
+            "divine",
+            "misfortune"
+          ]
+        },
+        "frequency": {
+          "max": 3,
+          "per": "PT1H",
+          "value": 3
+        },
+        "description": {
+          "value": "<p><strong>Частота</strong> 3 раза за бой.</p><p><strong>Триггер</strong> Существо попадает по Агате Ударом.</p><p><strong>Эффект</strong> Атакующий перебрасывает бросок атаки и должен взять второй результат. Теряется, если кристалл разбит или договор нарушен.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "WRyqIvS4zc82wTIf",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Вредоносный удар",
+      "type": "action",
+      "system": {
+        "slug": "vredonosnyi-udar",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "traits": {
+          "value": []
+        },
+        "description": {
+          "value": "<p><strong>Требования</strong> Агата тратит заклинание <em>harm</em>.</p><p><strong>Эффект</strong> Агата делает Удар ближнего боя и добавляет к урону урон пустотой от <em>harm</em>.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "CeGdXyOFBjIWz32k",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "name": "Отравить оружие",
+      "type": "action",
+      "system": {
+        "slug": "otravit-oruzhie",
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "traits": {
+          "value": [
+            "manipulate"
+          ]
+        },
+        "description": {
+          "value": "<p><strong>Требования</strong> Агата держит колющее или рубящее оружие.</p><p><strong>Эффект</strong> Агата Взаимодействует, чтобы достать яд для ранений, и наносит его на оружие. Если её следующая атака этим оружием до конца её следующего хода попадёт и нанесёт урон, яд подействует. При критическом промахе яд пропадает.</p>"
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "_id": "k4fXpQk2T3d1KsJR",
+      "effects": [],
+      "flags": {},
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.10.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "effects": [],
+  "prototypeToken": {
+    "name": "Агата Бранкович — Жрица",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/npc.svg"
+    }
+  },
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

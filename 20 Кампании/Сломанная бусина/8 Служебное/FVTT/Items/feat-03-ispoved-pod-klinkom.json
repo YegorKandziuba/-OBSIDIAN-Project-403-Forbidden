@@ -1,0 +1,76 @@
+{
+  "name": "Исповедь под клинком",
+  "type": "feat",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "system": {
+    "slug": "confession-under-the-blade",
+    "category": "class",
+    "level": {
+      "value": 4
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Посвящение Экзекутора Мизерикорда"
+        },
+        {
+          "value": "обучен Запугиванию"
+        }
+      ]
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "skill"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "rules": [],
+    "description": {
+      "value": "<p>Приговорённый у ваших ног говорит быстрее. Вы можете Принуждать (Coerce) существо за 1 раунд вместо 1 минуты, если оно схвачено, обездвижено, повалено или застигнуто вами врасплох и находится рядом с вами, пока вы держите мизерикорд.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Сломанная бусина (homebrew)",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}
